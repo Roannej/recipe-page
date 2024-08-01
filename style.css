@@ -90,9 +90,59 @@ p {
 .ingredients li::marker,
 .instructions li::marker {
     color: hsl(14, 45%, 36%);
-  }
+}
 
+.nutrition {
+    margin: 0 6% 2%;
+    padding-bottom: 2%;
+}
+  
+.nutrition h2 {
+    color:hsl(14, 45%, 36%);
+    font-family: YoungSerif-Regular;
+    font-weight: 500;
+    margin: 0;
+    font-size: 50px;
+    letter-spacing: 0.4px;
+    padding-bottom: 2%;
+}
+  
+.nutrition span {
+    font-size: 32px;
+    font-family: Outfit-VariableFont_wght;
+    padding-bottom: 2%;
+    color: hsl(30, 10%, 34%);
+}
 
+table {
+    width: 100%;
+    margin-top: 2%;
+    font-family: Outfit-VariableFont_wght;
+    font-size: 32px;
+    color: hsl(30, 10%, 34%);
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 2% 0 2% 5%;
+    color: hsl(30, 10%, 34%);
+}
+
+#no-border {
+    border-bottom: 0px;
+}
+  
+.numbers {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+    padding-left: 2%;
+}
+
+.attribution {
+    margin-bottom: 20px;
+}
+  
 @media screen and (max-width: 425px) {
     .hero img {
         border-radius: 0;
@@ -129,10 +179,8 @@ p {
     .instructions h2 {
         font-weight: 400;
         font-size: 30px;
-        letter-spacing: 0.4px;
-        padding-bottom: 2%;
     }
-    
+
     .ingredients ul,
     .instructions ol {
         padding-left: 8%;
@@ -150,9 +198,29 @@ p {
     
     .ingredients li::marker,
     .instructions li::marker {
-        color: hsl(14, 45%, 36%);
         font-family: Outfit-VariableFont_wght;
         font-weight: bold;
         font-size: 16px;
-      }
+    }
+
+    .nutrition {
+    padding-bottom: 6%;
+    }
+  
+    .nutrition h2 {
+        font-weight: 400;
+        font-size: 30px;
+    }
+  
+    .nutrition span {
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+  
+    .numbers {
+        font-weight: 500;
+    }
 }
