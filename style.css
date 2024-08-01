@@ -29,6 +29,30 @@ p {
     margin: 0 6% 4%;
 }
 
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    margin: 0 6% 4%;
+    border-radius: 20px;
+    padding: 4% 4% 2%;
+    font-family: Outfit-VariableFont_wght;
+}
+
+.preparation h2 {
+    color:hsl(332, 51%, 32%);
+    font-weight: 800;
+    margin: 0;
+    font-size: 34px;
+    letter-spacing: 0.4px;
+    padding-bottom: 2%;
+}
+
+.preparation li {
+    font-size: 30px;
+    padding-bottom: 2%;
+    color: hsl(30, 10%, 34%);
+    padding-left: 2%;
+}
+
 @media screen and (max-width: 375px) {
     .hero img {
         border-radius: 0;
@@ -42,5 +66,22 @@ p {
 
     p {
         font-size: 18px;
+    }
+
+    .preparation {
+        padding: 4% 6% 2%;
+    }
+
+    .preparation h2 {
+        font-size: 20px;
+    }
+
+    .preparation li {
+        font-size: 18px;
+        padding-left: 6%;
+    }
+
+    .preparation ul {
+        padding-left: 8%;
     }
 }
