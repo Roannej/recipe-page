@@ -19,14 +19,17 @@ body {
 .intro h1 {
     margin: 0 6% 4%;
     font-family: YoungSerif-Regular;
-    font-weight: 300;
+    font-weight: 500;
+    letter-spacing: 0.2px;
     font-size: 76px;
+    color: hsl(24, 5%, 18%);
 }
 
 p {
     font-family: Outfit-VariableFont_wght;
     font-size: 30px;
     margin: 0 6% 4%;
+    color: hsl(24, 5%, 18%);
 }
 
 .preparation {
@@ -52,6 +55,37 @@ p {
     color: hsl(30, 10%, 34%);
     padding-left: 2%;
 }
+
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+  }
+
+.ingredients {
+    margin-left: 6%;
+}
+
+.ingredients h2 {
+    color:hsl(14, 45%, 36%);
+    font-family: YoungSerif-Regular;
+    font-weight: 600;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    padding-bottom: 2%;
+}
+
+.ingredients li {
+    font-size: 30px;
+    font-family: Outfit-VariableFont_wght;
+    padding-bottom: 2%;
+    color: hsl(30, 10%, 34%);
+    padding-left: 2%;
+}
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+  }
+
 
 @media screen and (max-width: 375px) {
     .hero img {
@@ -84,4 +118,27 @@ p {
     .preparation ul {
         padding-left: 8%;
     }
+    
+    .ingredients h2 {
+        font-weight: 400;
+        font-size: 30px;
+        letter-spacing: 0.4px;
+        padding-bottom: 2%;
+    }
+    
+    .ingredients ul {
+        padding-left: 8%;
+    }
+
+    .ingredients li {
+        font-size: 18px;
+        font-family: Outfit-VariableFont_wght;
+        padding-bottom: 3%;
+        color: hsl(30, 10%, 34%);
+        padding-left: 5%;
+    }
+    
+    .ingredients li::marker {
+        color: hsl(14, 45%, 36%);
+      }
 }
